@@ -62,6 +62,9 @@ The DUT consists of a memory controller interfacing with an internal memory. It 
 
 ---
 
+![Diagrama de Entorno de Verificación](Plan.png)
+
+
 ## Agents
 
 **Host agent:**
