@@ -38,6 +38,8 @@ The DUT consists of a memory controller interfacing with an internal memory. It 
 
 ---
 
+![Txn Plan](Txn.png)
+
 ## Transactions
 
 **Host agent transactions:**
@@ -48,6 +50,8 @@ The DUT consists of a memory controller interfacing with an internal memory. It 
 - `spi_err_txn`: force invalid operations (address >32, or illegal op) to trigger err.
 
 ---
+
+![Sequences Plan](Seq.png)
 
 ## Sequences
 
