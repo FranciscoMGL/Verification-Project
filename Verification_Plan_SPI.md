@@ -38,7 +38,9 @@ The DUT consists of a memory controller interfacing with an internal memory. It 
 
 ---
 
+<p align="center">
 ![Txn Plan](Txn.png)
+</p>
 
 ## Transactions
 
@@ -51,7 +53,9 @@ The DUT consists of a memory controller interfacing with an internal memory. It 
 
 ---
 
+<p align="center">
 ![Sequences Plan](Seq.png)
+</p>
 
 ## Sequences
 
@@ -66,8 +70,9 @@ The DUT consists of a memory controller interfacing with an internal memory. It 
 
 ---
 
+<p align="center">
 ![Diagrama de Entorno de Verificación](Plan.png)
-
+</p>  
 
 ## Agents
 
