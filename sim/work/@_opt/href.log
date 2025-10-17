@@ -1,0 +1,20 @@
+BEGIN 3:spi_i:fast__1:work
+    err :  1:uvm_spi_mem_pkg:fast:work
+    din :  1:uvm_spi_mem_pkg:fast:work
+    dout :  1:uvm_spi_mem_pkg:fast:work
+    wr :  1:uvm_spi_mem_pkg:fast:work
+    rst :  1:uvm_spi_mem_pkg:fast:work
+    addr :  1:uvm_spi_mem_pkg:fast:work
+    clk :  1:uvm_spi_mem_pkg:fast:work
+    done :  1:uvm_spi_mem_pkg:fast:work
+END 
+BEGIN 3:spi_i:fast__2:work
+    err :  1:spi_mem_tb_top:fast:work
+    wr :  1:spi_mem_tb_top:fast:work
+    rst :  1:spi_mem_tb_top:fast:work
+    din :  1:spi_mem_tb_top:fast:work
+    done :  1:spi_mem_tb_top:fast:work
+    clk :  1:spi_mem_tb_top:fast:work
+    addr :  1:spi_mem_tb_top:fast:work
+    dout :  1:spi_mem_tb_top:fast:work
+END 

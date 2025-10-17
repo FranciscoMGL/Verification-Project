@@ -1,0 +1,178 @@
+# //  Questa Sim-64
+# //  Version 2021.2_1 linux_x86_64 May 15 2021
+# //
+# //  Copyright 1991-2021 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# ** Warning: (vsim-8689) Ignoring plusarg '+acc'.  Did you mean '-voptargs=+acc'?
+# vsim -t ps -do "wave.do" -do "run -all" -coverage "+UVM_TESTNAME=test" -vopt "+acc" spi_mem_tb_top 
+# Start time: 18:31:20 on Oct 03,2025
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading sv_std.std
+# Loading work.spi_i(fast)
+# Loading work.spi_mem_data_types_pkg(fast)
+# Loading mtiUvm.uvm_pkg(fast)
+# Loading work.uvm_spi_mem_pkg(fast)
+# Loading work.uvm_spi_mem_tb_top_pkg(fast)
+# Loading work.uvm_spi_mem_sequences_pkg(fast)
+# Loading work.uvm_spi_mem_tests_pkg(fast)
+# Loading work.spi_mem_tb_pkg(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.spi_mem_tb_top(fast)
+# Loading work.spi_mem_top(fast)
+# Loading /opt/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+# do wave.do
+# run -all
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(277) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(278) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# UVM_INFO @ 0: reporter [RNTST] Running test test...
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(38) @ 0: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(38) @ 10: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(35) @ 10: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(32) @ 10: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(35) @ 30: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(32) @ 30: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(38) @ 30: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(38) @ 50: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(35) @ 50: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(32) @ 50: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(35) @ 70: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(32) @ 70: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(38) @ 70: uvm_test_top.env.a.d [DRV] System Reset : Start of Simulation
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(35) @ 90: uvm_test_top.env.a.m [MON] SYSTEM RESET DETECTED
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(32) @ 90: uvm_test_top.env.s [SCO] SYSTEM RESET DETECTED
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(63) @ 110: uvm_test_top.env.a.d [DRV] mode : Write addr:2 din:102
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(45) @ 550: uvm_test_top.env.a.m [MON] DATA WRITE addr:2 data:102 err:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(43) @ 550: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:2, wdata:102 arr_wr:102
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(63) @ 570: uvm_test_top.env.a.d [DRV] mode : Write addr:5 din:136
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(45) @ 1010: uvm_test_top.env.a.m [MON] DATA WRITE addr:5 data:136 err:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(43) @ 1010: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:5, wdata:136 arr_wr:136
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(63) @ 1030: uvm_test_top.env.a.d [DRV] mode : Write addr:8 din:121
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(45) @ 1470: uvm_test_top.env.a.m [MON] DATA WRITE addr:8 data:121 err:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(43) @ 1470: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:8, wdata:121 arr_wr:121
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(63) @ 1490: uvm_test_top.env.a.d [DRV] mode : Write addr:10 din:13
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(45) @ 1930: uvm_test_top.env.a.m [MON] DATA WRITE addr:10 data:13 err:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(43) @ 1930: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:10, wdata:13 arr_wr:13
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(63) @ 1950: uvm_test_top.env.a.d [DRV] mode : Write addr:2 din:17
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(45) @ 2390: uvm_test_top.env.a.m [MON] DATA WRITE addr:2 data:17 err:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(43) @ 2390: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:2, wdata:17 arr_wr:17
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(63) @ 2410: uvm_test_top.env.a.d [DRV] mode : Write addr:6 din:142
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(45) @ 2850: uvm_test_top.env.a.m [MON] DATA WRITE addr:6 data:142 err:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(43) @ 2850: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:6, wdata:142 arr_wr:142
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(63) @ 2870: uvm_test_top.env.a.d [DRV] mode : Write addr:9 din:69
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(45) @ 3310: uvm_test_top.env.a.m [MON] DATA WRITE addr:9 data:69 err:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(43) @ 3310: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:9, wdata:69 arr_wr:69
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(63) @ 3330: uvm_test_top.env.a.d [DRV] mode : Write addr:6 din:15
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(45) @ 3770: uvm_test_top.env.a.m [MON] DATA WRITE addr:6 data:15 err:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(43) @ 3770: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:6, wdata:15 arr_wr:15
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(63) @ 3790: uvm_test_top.env.a.d [DRV] mode : Write addr:7 din:31
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(45) @ 4230: uvm_test_top.env.a.m [MON] DATA WRITE addr:7 data:31 err:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(43) @ 4230: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:7, wdata:31 arr_wr:31
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(63) @ 4250: uvm_test_top.env.a.d [DRV] mode : Write addr:0 din:64
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(45) @ 4690: uvm_test_top.env.a.m [MON] DATA WRITE addr:0 data:64 err:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(43) @ 4690: uvm_test_top.env.s [SCO] DATA WRITE OP  addr:0, wdata:64 arr_wr:64
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(73) @ 4710: uvm_test_top.env.a.d [DRV] mode : Read addr:8 din:200
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(55) @ 5170: uvm_test_top.env.a.m [MON] DATA READ addr:8 data:121 slverr:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(56) @ 5170: uvm_test_top.env.s [SCO] DATA MATCHED : addr:8, rdata:121
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(73) @ 5190: uvm_test_top.env.a.d [DRV] mode : Read addr:6 din:184
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(55) @ 5650: uvm_test_top.env.a.m [MON] DATA READ addr:6 data:15 slverr:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(56) @ 5650: uvm_test_top.env.s [SCO] DATA MATCHED : addr:6, rdata:15
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(73) @ 5670: uvm_test_top.env.a.d [DRV] mode : Read addr:10 din:247
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(55) @ 6130: uvm_test_top.env.a.m [MON] DATA READ addr:10 data:13 slverr:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(56) @ 6130: uvm_test_top.env.s [SCO] DATA MATCHED : addr:10, rdata:13
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(73) @ 6150: uvm_test_top.env.a.d [DRV] mode : Read addr:0 din:230
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(55) @ 6610: uvm_test_top.env.a.m [MON] DATA READ addr:0 data:64 slverr:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(56) @ 6610: uvm_test_top.env.s [SCO] DATA MATCHED : addr:0, rdata:64
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(73) @ 6630: uvm_test_top.env.a.d [DRV] mode : Read addr:2 din:74
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(55) @ 7090: uvm_test_top.env.a.m [MON] DATA READ addr:2 data:17 slverr:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(56) @ 7090: uvm_test_top.env.s [SCO] DATA MATCHED : addr:2, rdata:17
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(73) @ 7110: uvm_test_top.env.a.d [DRV] mode : Read addr:10 din:14
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(55) @ 7570: uvm_test_top.env.a.m [MON] DATA READ addr:10 data:13 slverr:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(56) @ 7570: uvm_test_top.env.s [SCO] DATA MATCHED : addr:10, rdata:13
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(73) @ 7590: uvm_test_top.env.a.d [DRV] mode : Read addr:5 din:135
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(55) @ 8050: uvm_test_top.env.a.m [MON] DATA READ addr:5 data:136 slverr:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(56) @ 8050: uvm_test_top.env.s [SCO] DATA MATCHED : addr:5, rdata:136
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(73) @ 8070: uvm_test_top.env.a.d [DRV] mode : Read addr:0 din:35
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(55) @ 8530: uvm_test_top.env.a.m [MON] DATA READ addr:0 data:64 slverr:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(56) @ 8530: uvm_test_top.env.s [SCO] DATA MATCHED : addr:0, rdata:64
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(73) @ 8550: uvm_test_top.env.a.d [DRV] mode : Read addr:4 din:228
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(55) @ 9010: uvm_test_top.env.a.m [MON] DATA READ addr:4 data:0 slverr:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(56) @ 9010: uvm_test_top.env.s [SCO] DATA MATCHED : addr:4, rdata:0
+# ----------------------------------------------------------------
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_driver.sv(73) @ 9030: uvm_test_top.env.a.d [DRV] mode : Read addr:5 din:231
+# UVM_INFO ../tb/UVM_SPI_PKG/spi_mem_mon.sv(55) @ 9490: uvm_test_top.env.a.m [MON] DATA READ addr:5 data:136 slverr:0
+# UVM_INFO ../tb/UVM_TOP_PKG/spi_mem_scb.sv(56) @ 9490: uvm_test_top.env.s [SCO] DATA MATCHED : addr:5, rdata:136
+# ----------------------------------------------------------------
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 9510: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :   79
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [DRV]    25
+# [MON]    25
+# [Questa UVM]     2
+# [RNTST]     1
+# [SCO]    25
+# [TEST_DONE]     1
+# ** Note: $finish    : /opt/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 9510 ps  Iteration: 54  Instance: /spi_mem_tb_top
+# 1
+# Break in Task uvm_pkg/uvm_root::run_test at /opt/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430
+# End time: 18:42:15 on Oct 03,2025, Elapsed time: 0:10:55
+# Errors: 0, Warnings: 1
